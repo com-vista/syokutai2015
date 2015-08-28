@@ -1,0 +1,210 @@
+#home a,
+#home a:active,
+#home a:link{
+	color:#06C;
+	}
+#home a:visited{
+	color:#09F;
+	}
+#home a:hover{
+	color:#039;
+	}
+
+/*  */
+#homeHeader{
+	width:800px;
+	margin:auto;
+	}
+#home #navi{
+	width:238px;
+	padding:0 0 0 10px;
+	margin:0;
+	float:left;
+	}
+#home #navi li{
+	width:220px;
+	padding:0 0 0 13px;
+	margin:0;
+	border-left:#F0F0F0 solid 5px;	
+	}
+
+#home #rContents{
+	width:512px;
+	padding:0 20px;
+	_padding:0 15px;
+	text-align:left;
+	line-height:1.5;
+	float:right;
+	}
+#home #rContents #title{
+	background:url(img/title.jpg) no-repeat;
+	width:512px;
+	height:200px;
+	position:relative;
+	}
+#home #rContents #titleFin{
+	background:url(img/title_fin.jpg) no-repeat;
+	width:512px;
+	height:200px;
+	position:relative;
+	}
+#home #rContents #title img,
+#home #rContents #titleFin img{
+	position:absolute;
+	top:132px;
+	left:437px;
+	}
+#home #rContents p{
+	padding:5px 10px;
+	font-size:14px;
+	}
+#home #rContents p.fs12 {
+	font-size:12px;
+}
+#home #rContents p.menu{
+	color:#F00;
+	font-weight:bold;
+	border-bottom:#F00 dotted 1px;
+	}
+#home #rContents #report{
+	background:url(img/report_bg.jpg) no-repeat;
+	width:480px;
+	height:200px;
+	margin:10px auto 30px;
+	position:relative;
+	}
+#home #rContents li{
+	width:500px;
+	margin:10px auto;
+	}
+#home #rContents #report img{
+	position:absolute;
+	top:46px;
+	left:354px;
+	}
+#home #rContents dl#special dt{
+	background:url(img/bar.jpg) no-repeat;
+	width:512px;
+	height:30px;
+	color:#F30;
+	font-size:14px;
+	font-weight:bold;
+	line-height:2.2;
+	text-indent:15px;
+	margin-top:20px;
+	margin-bottom:5px;
+	}
+#home #rContents dl#special dd{
+	padding:0 10px;
+	font-size:12px;
+	margin-bottom:5px;
+	}
+#home #rContents dl#special dd p{
+	padding:5px 10px;
+	font-size:14px;
+	color:#03C;
+	}
+#home #rContents dl#support dt{
+	background:#000;
+	color:#FFF;
+	font-weight:bold;
+	padding:5px 10px;
+	margin-top:20px;
+	margin-bottom:5px;
+	}
+#home #rContents dl#support dd{
+	padding:0 10px;
+	font-size:10px;
+	}
+#home #rContents dl#support dd p{
+	padding:5px 10px;
+	font-size:14px;
+	color:#F36;
+	border:#F36 solid 1px;
+	margin:10px;
+	}
+#home #rContents dl#support dd#school a:link{
+	color:#000;
+	}
+#home #rContents dl#support dd#school a:visited{
+	color:#000;
+	}
+#home #rContents dl#support dd#school a:hover{
+	color:#069;
+	}
+#home #rContents dl#support dd#school a:active{
+	color:#F90;
+	}
+.smalltext {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
+.form {
+	margin-top: 10px;
+	margin-left: 5px;
+	float:left;
+}
+.contest {
+	margin:15px auto 0 auto;
+	padding:0px;
+	width:385px;
+}
+.contest img {
+	margin:0 10px 0 0;
+	padding:0px;
+}
+.contestRight {
+	float:right;
+	text-align:center;
+	width:251px;
+	margin:5px 0px 15px 0px;
+}
+.contestLeft {
+	float:left;
+	text-align:center;
+	width:251px;
+	margin:5px 0px 15px 0px;
+}
+.mgTop10 {
+	margin:10px 0px 0px 0px;
+}
+.mgBottom10 {
+	margin:0px 0px 10px 0px;
+}
+.mg10 {
+	margin:10px 0px;
+}
+.theme {
+	border-left:#CCCCCC solid 2px;
+	border-right:#CCCCCC solid 2px;
+	border-bottom:#CCCCCC solid 2px;
+	padding:0px 20px 5px 20px;
+	text-align:center;
+	width:466px;
+}
+.left {
+	float:left;
+}
+.commntBox {
+	font-size:14px;
+	font-weight:bold;
+	margin:15px 0px 0px 0px;
+	padding:0px 10px;
+}
+.fs18Red {
+	font-size:18px;
+	font-weight:bold;
+	color:#F00;
+}
+.fs12 {
+	font-size:12px;
+}
+.attention {
+	border:#F36 1px solid;
+	/*border-bottom:#F00 2px dotted;*/
+	background:#FFE8FF;
+	padding:10px 20px;
+	margin:10px 0;
+	font-size:12px;
+}
