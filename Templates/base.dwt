@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>第15回「職業体験セミナー」</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta name="keywords" content="職業体験セミナー,職業,体験,仕事,医療,福祉,健康,美容,衛生,ブライダル,観光,製菓,調理,栄養,農業,動物,自然,クリエーティブ,音楽,ハイテク,語学,公務員">
+<meta name="description" content="職業体験セミナーは、1日で様々な仕事が体験できるイベントです。しかも、皆さんの体験をサポートするのは、その道のプロばかり。体験に加えて、それぞれの現場で働いたときのイメージがわくよう丁寧な説明も行います。">
+<link rel="stylesheet" href="../common/css/import.css" type="text/css">
+<script type="text/javascript" src="../common/js/import.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+SexyLightbox.initialize();
+});
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="bodyID" type="text" value="" -->
+<!-- TemplateParam name="globalNavi" type="boolean" value="true" -->
+<!-- TemplateParam name="pageTop" type="boolean" value="true" -->
+</head>
+<body id="@@(bodyID)@@">
+<div id="container">
+
+<!-- TemplateBeginIf cond="globalNavi" -->
+<div id="header">
+<a href="../index.html"><img src="../common/img/toppage.jpg" alt="トップページへ" id="toppage"></a>
+<ul>
+<li><a href="../shigoto/medical.html"><img src="../common/img/medical.jpg" alt="医療" class="btn"></a></li>
+<li><a href="../shigoto/welfare.html"><img src="../common/img/welfare.jpg" alt="福祉" class="btn"></a></li>
+<li><a href="../shigoto/health.html"><img src="../common/img/health.jpg" alt="健康" class="btn"></a></li>
+<li><a href="../shigoto/beauty.html"><img src="../common/img/beauty.jpg" alt="美容衛生" class="btn"></a></li>
+<li><a href="../shigoto/bridal.html"><img src="../common/img/bridal.jpg" alt="ブライダル" class="btn"></a></li>
+<li><a href="../shigoto/sightseeing.html"><img src="../common/img/sightseeing.jpg" alt="観光" class="btn"></a></li>
+<li><a href="../shigoto/ceremony.html"><img src="../common/img/ceremony.jpg" alt="葬祭" class="btn"></a></li>
+<li><a href="../shigoto/confectionery.html"><img src="../common/img/confectionery.jpg" alt="製菓・調理" class="btn"></a></li>
+<li><a href="../shigoto/architecture.html"><img src="../common/img/architecture.jpg" alt="建築" class="btn"></a></li>
+<li><a href="../shigoto/eco.html"><img src="../common/img/animal.jpg" alt="自然・動物" class="btn"></a></li>
+<li><a href="../shigoto/agriculture.html"><img src="../common/img/agriculture.jpg" alt="農業" class="btn"></a></li>
+<li><a href="../shigoto/creative.html"><img src="../common/img/creative.jpg" alt="クリエーティブ" class="btn"></a></li>
+<!--<li><a href="../shigoto/fashion.html"><img src="../common/img/fashion.jpg" alt="ファッション" class="btn"></a></li>-->
+<li><a href="../shigoto/music.html"><img src="../common/img/music.jpg" alt="音楽" class="btn"></a></li>
+<li><a href="../shigoto/voice_actor.html"><img src="../common/img/voice_actor.jpg" alt="声優" class="btn"></a></li>
+<li><a href="../shigoto/hightech.html"><img src="../common/img/engineer.jpg" alt="エンジニア" class="btn"></a></li>
+<li><a href="../shigoto/language.html"><img src="../common/img/language.jpg" alt="語学" class="btn"></a></li>
+<li><a href="../shigoto/public.html"><img src="../common/img/public.jpg" alt="公務員" class="btn"></a></li>
+</ul>
+</div>
+<!-- TemplateEndIf -->
+<!-- TemplateBeginEditable name="Shigoto" -->
+<!-- TemplateEndEditable -->
+<div id="footer">
+<!-- TemplateBeginIf cond="pageTop" -->
+<div id="pageTop"><a href="#container">▲このページのトップへ</a></div>
+<!-- TemplateEndIf -->
+<address>&copy; 職業体験セミナー実行委員会. all rights reserved.</address>
+</div>
+
+</div>
+</body>
+</html>
