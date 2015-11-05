@@ -1,0 +1,107 @@
+/*----------------フォーム設定----------------*/
+
+form {
+	margin: 0px;
+}
+
+/*----------------トップメニュー設定----------------*/
+a.link01{
+	display:block;
+	width:230px;
+	padding:5px 5px;
+	text-align:center;
+	border:solid 1px;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	background-color:#FFFFCC;
+	border-color:#666666
+	}
+a.link01:hover{
+        background-color:#FF9900;
+	color:#FFFFFF;
+	}
+.menu div{
+	margin-bottom:10px;
+	}
+
+/*----------------テキスト基本設定----------------*/
+
+.normaltext{
+	font-size: 12px;
+	line-height: 120%
+	}
+	
+.sText {
+	font-size: 10px;
+	line-height: 120%;
+	}
+	
+.mText {
+	font-size: 12px;
+	line-height: 130%;
+	}
+	
+.lText {
+	font-size: 14px;
+	line-height: 140%;
+	}
+	
+.llText {
+	font-size: 17px;
+	line-height: 140%;
+	}
+
+.t-red-s-middle {
+	font-size: 10px;
+	line-height: 140%;
+	color: #FF0000;
+	}
+
+.t-red-m-middle {
+	font-size: 12px;
+	line-height: 140%;
+	color: #FF0000;
+	}
+
+
+.titleText {
+	color : #FFFFFF;
+	font-size: 12px;
+	line-height: 120%}
+
+.orangeText {
+	color : #FF6600;
+	font-size: 12px;
+	line-height: 120%}
+
+.redText {
+	color : #FF0000;
+	font-size: 12px;
+	line-height: 120%}
+
+.whiteText {
+	color : #FFFFFF;
+	font-size: 12px;
+	line-height: 120%}
+
+.whiteTextL {
+	color : #FFFFFF;
+	font-size: 14px;
+	line-height: 140%}
+
+.blueText {
+	color : #3366FF;
+	font-size: 12px;
+	line-height: 120%}
+
+/*---リンク設定---*/
+
+.head A               { color: #FFFFFF; font-size: 12px; text-decoration: none;}
+.head A:link           { color: #FFFFFF; font-size: 12px; text-decoration: none;}
+.head A:link:hover     { color: #FFFFFF; font-size: 12px; text-decoration: underline;}
+.head A:link:active    { color: #FFFFFF; font-size: 12px; text-decoration: none;}
+.head A:visited        { color: #FFFFFF; font-size: 12px; text-decoration: none;}
+.head A:visited:hover  { color: #FFFFFF; font-size: 12px; text-decoration: underline;}
+.head A:visited:active { color: #FFFFFF; font-size: 12px; text-decoration: none;}

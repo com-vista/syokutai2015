@@ -1,0 +1,40 @@
+<!-- saved from url=(0013)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<script src="js/uai.js" language="javascript"></script>
+<script src="js/init.js" language="javascript"></script>
+<script Language="JavaScript" type="text/javascript">
+<!--
+var strPdf="";
+var url_pram = location.search.substr(1).split("&");
+for (idx in url_pram) {
+	ws = url_pram[idx].split("=");
+	//document.write( url_pram[idx]+'<br>');
+	if(ws[0]=="pdf"){
+		strPdf = ws[1];
+		break;
+	}
+}
+//alert(" strPdf : " + strPdf);
+//var browser = br.browser;
+//var version = br.version;
+
+var uai = new UAIdentifier();
+function browser_check() { //v2.0
+    if (browser == "IE" && os == "Windows") {
+        //alert("Windows IE");
+    } else {
+        document.write("<a href='"+strPdf+"'>" + " Please confirm PDF here. " + "</a>");
+        exit;
+    }
+
+}
+// -->
+</script>
+</head>
+<body onLoad="browser_check();">
+<script src="js/pdf.js"></script>
+</body>
+</html>

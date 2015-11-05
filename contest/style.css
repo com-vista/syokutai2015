@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin:0px;padding:0px;}
+body{
+	background:url(img/bg.jpg) repeat-x;
+}
+#wrapper{
+	width:771px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 20pox 0 20px;
+	background:url(img/wrap.gif) repeat-y;
+	}
+	
+h1{margin:0px;padding:0px;}
+
+h2{
+	background:url(img/md01.jpg) no-repeat;
+	width:720px;
+	height:40px;
+	font-size:17px;
+	padding:9px 0 0 0;
+	text-indent:20px;
+	margin-left:25px;
+}
+h3{
+	margin-left:25px;
+	margin-right:25px;
+	color:#B2C25E;
+	font-size:15px;
+/*	border-bottom:#B2C25E 3px solid;*/
+}
+p{
+	font-size:13px;
+	margin:5px 25px 10px 25px;
+}
+#footer{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:30px;
+	border-top:#333333 1px dotted;
+	padding:20px 0 10px 0;
+}
+.quit{
+	background-color:#F00;
+	color:#FFF;
+	width:70%;
+	margin:0px auto;
+	font-weight:bold;
+	padding:10px;
+}
+
+
+
+.contest {
+	border-left:#CCCCCC solid 2px;
+	border-right:#CCCCCC solid 2px;
+	border-bottom:#CCCCCC solid 2px;
+	margin:0px;
+	padding:0px;
+	width:346px;
+}
+.contestRight {
+	float:right;
+	text-align:center;
+	width:100px;
+	margin:5px 8px 15px 0px;
+	_margin:5px 5px 15px 0px;
+}
+.contestLeft {
+	float:left;
+	text-align:center;
+	width:110px;
+	margin:5px 0px 15px 8px;
+	_margin:5px 0px 15px 5px;
+}
+.contestLeft2 {
+	float:left;
+	text-align:center;
+	width:110px;
+	margin:5px 0px 15px 5px;
+	_margin:5px 0px 15px 5px;
+}
+.mgTop10 {
+	margin:10px 0px 0px 0px;
+}
+.mgBottom10 {
+	margin:0px 0px 10px 0px;
+}
+.mg10 {
+	margin:10px 0px;
+}
+.theme {
+	text-align:center;
+	padding:10px 20px 10px 30px;
+	margin-top:10px;
+	border:#CCC solid 2px;
+}
+.left {
+	float:left;
+}
+.commntBox {
+	font-size:14px;
+	font-weight:bold;
+	margin:10px 0px;
+	padding:0px 10px;
+}
+.w350 {
+	width:350px;
+}
+.lastyear {
+	margin:10px 25px 20px 25px;
+}
+.mgLeft15 {
+	margin-left: 20px;
+}
+
+.clearfix:after {
+content: ".";  /* 新しい要素を作る */
+display: block;  /* ブロックレベル要素に */
+clear: both;
+height: 0;
+visibility: hidden;
+}
+.clearfix { /*IE用*/
+min-height: 1px;
+_height: 1px;
+}
+.clear {
+	clear:both;
+}

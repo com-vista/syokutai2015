@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+/*---Flash Playerアップグレード---*/
+body {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 140%;
+}
+
+#upWrapper {
+	width: 974px;
+	margin-top: 110px;
+	color: #333333;
+	text-align: center;
+}
+
+#upWrapper h1 {
+	font-size: 18px;
+	color: #FF6600;
+	margin-bottom: 30px;
+}
+
+.contents {
+	margin-top: 50px;
+}

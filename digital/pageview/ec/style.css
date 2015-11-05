@@ -1,0 +1,354 @@
+@charset "utf-8";
+
+
+
+
+
+/*----------------------------------------------------
+
+
+
+	Reset
+
+
+
+----------------------------------------------------*/
+
+
+
+
+
+html {
+
+	overflow-y: scroll;
+
+}
+
+
+
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote/*,th,td*/ {
+
+	margin: 0;
+	padding: 0;
+	word-wrap:break-word;
+}
+
+
+
+
+
+
+
+address,caption,cite,code,dfn,em,strong,th,var {
+
+	font-style: normal;
+
+}
+
+
+
+
+
+
+
+/*table {
+
+	border-collapse: collapse;
+
+	border-spacing: 0;
+
+}*/
+
+
+
+
+
+
+
+caption,th {
+
+	text-align: left;
+
+}
+
+
+
+
+
+
+
+q:before,q:after {
+
+	content: '';
+
+}
+
+
+
+
+
+
+
+object,embed {
+
+	vertical-align: top;
+
+}
+
+
+
+
+
+
+
+hr,legend {
+
+	display: none;
+
+}
+
+
+
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+img,abbr,acronym,fieldset {
+
+	border: 0;
+
+}
+
+
+
+
+
+
+
+li {
+
+	list-style-type: none;
+
+}
+
+
+
+
+
+
+
+p {
+
+	margin-bottom: 1em;
+
+}
+
+
+
+
+
+
+
+.clear {
+
+	clear:both;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------
+
+
+
+	Link
+
+
+
+----------------------------------------------------*/
+
+
+
+
+
+
+
+a:link {
+
+	text-decoration: underline;
+
+	color: #0099FF;
+
+}
+
+
+
+
+
+
+
+a:visited {
+
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+a:active {
+
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------
+
+
+
+	Base
+
+
+
+----------------------------------------------------*/
+
+
+
+
+
+
+
+body {
+	color: #333333;
+	font-size: 12px;
+	font-family: verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	line-height: 1.5;
+	background: #FFFFFF;
+	text-align: center;
+}
+
+
+
+
+
+
+
+* + html body {
+
+	font-family: "メイリオ","Meiryo";
+
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------
+
+
+
+	waku
+
+
+
+----------------------------------------------------*/
+
+
+
+
+
+#wrapper {
+	width: 650px;
+	text-align: left;
+	margin: 0px auto;
+	padding-top: 200px;
+
+}
+
+
+
+
+
+
+/*----------------------------------------------------
+
+
+
+	contents
+
+
+
+----------------------------------------------------*/
+
+
+
+
+
+.message {
+	position:absolute;
+	height: 160px;
+	width: 700px;
+	border: 1px solid #666666;
+	top:50%;
+	left:50%;
+	margin-top:-80px;
+	margin-left:-350px;
+	background: #EEEEEE;
+	vertical-align: middle;
+}
+
+
+
+.messageMargin {
+	margin-top: 70px;
+}
+
+
+
+.messageMargin img {
+	margin-right: 5px;
+	vertical-align: middle;
+}

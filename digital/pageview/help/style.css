@@ -1,0 +1,506 @@
+@charset "utf-8";
+
+
+
+/*----------------------------------------------------
+
+	common
+
+----------------------------------------------------*/
+
+
+
+html,body {
+	margin:0;
+	padding:0;
+	border:none;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	color: #666666;
+}
+
+
+
+body {
+	background-image: url(img/head_bg.jpg);
+	background-repeat: repeat-x;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,ul,ol,p,dl,dt,dd {
+	margin:0;
+	padding:0;
+}
+
+
+
+h1 {
+	width: 740px;
+	font-size: 18px;
+	padding-top: 15px;
+	margin: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	line-height: 100%;
+	background-image: url(img/title_help.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+
+
+h2 {
+	clear: both;
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 740px;
+}
+
+
+
+#operationTitle {
+	background-image: url(img/title_operation.jpg);
+	text-indent: -9999px;
+}
+
+
+#systemreqsTitle {
+	background-image: url(img/title_systemreqs.jpg);
+	text-indent: -9999px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-indent: 8px;
+	height: 21px;
+	width: 740px;
+	background-image: url(img/title_bg.gif);
+	padding-top: 2px;
+	padding-left: 5px;
+	background-repeat: no-repeat;
+}
+
+
+ul {
+	list-style-type: disc;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+
+dt{
+	font-weight: bold;
+
+}
+
+
+.TextL dt {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	padding-top: 5px;
+	text-indent: 23px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+}
+
+
+.TextR dt{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	padding-top: 5px;
+	text-indent: 23px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+}
+
+.TextR2 dt{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	padding-top: 5px;
+	text-indent: 23px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+}
+
+
+dd {
+	line-height: 150%;
+	margin-bottom: 7px;
+	margin-top: 2px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+
+.clear {
+	clear:both;
+}
+
+
+
+.pageTop {
+	width: 740px;
+	text-align: right;
+	padding-top: 100px;
+	padding-bottom: 2px;
+	clear: both;
+}
+
+
+
+.margin0 {
+	margin: 0px;
+}
+
+
+
+.marginTop15s {
+	margin-top: 15px;
+}
+
+
+
+.redText {
+	color:#FF0000;
+}
+
+
+
+/*----------------------------------------------------
+
+	Link
+
+----------------------------------------------------*/
+
+
+
+a:link {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+
+
+a:visited {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+
+
+a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+
+
+a:active {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+
+
+/*----------------------------------------------------
+
+	wrapper
+
+----------------------------------------------------*/
+
+
+
+#wrapper {
+	width: 740px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-bottom: 40px;
+	text-align: left;
+	position: relative;
+}
+
+
+
+/*----------------------------------------------------
+
+	close button
+
+----------------------------------------------------*/
+
+
+
+#closeBt {
+	background: url(img/close_bt.gif) no-repeat;
+	height: 24px;
+	width: 60px;
+	text-indent: -9999px;
+	position:absolute;
+	left: 680px;
+	top: 9px;
+}
+
+
+
+
+#closeBt a {
+	display: block;
+	height: 24px;
+	width: 60px;
+	text-decoration: none;
+}
+
+
+
+
+#closeBt a:hover {
+	display: block;
+	height: 24px;
+	width: 60px;
+	text-decoration: none;
+	background: url(img/close_bt_f2.gif) no-repeat;
+}
+
+
+
+/*----------------------------------------------------
+
+	operation systemreqs button
+
+----------------------------------------------------*/
+
+
+
+#operationBt {
+	background: url(img/bt_operation.jpg) no-repeat;
+	height: 30px;
+	width: 145px;
+	text-indent: -9999px;
+	margin-top: 15px;
+	float: left;
+	margin-bottom: 20px;
+	/*position:absolute;*/
+}
+
+
+
+
+#operationBt a {
+	display: block;
+	height: 30px;
+	width: 145px;
+	text-decoration: none;
+}
+
+
+
+
+#operationBt a:hover {
+	display: block;
+	height: 30px;
+	width: 145px;
+	text-decoration: none;
+	background: url(img/bt_operation_f2.jpg) no-repeat;
+}
+
+
+
+
+#systemreqsBt {
+	background: url(img/bt_systemreqs.jpg) no-repeat;
+	height: 30px;
+	width: 145px;
+	text-indent: -9999px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	/*position:absolute;*/
+}
+
+
+
+
+#systemreqsBt a {
+	display: block;
+	height: 30px;
+	width: 145px;
+	text-decoration: none;
+}
+
+
+
+
+#systemreqsBt a:hover {
+	display: block;
+	height: 30px;
+	width: 145px;
+	text-decoration: none;
+	background: url(img/bt_systemreqs_f2.jpg) no-repeat;
+}
+
+
+/*----------------------------------------------------
+
+	header
+
+----------------------------------------------------*/
+
+
+
+.pageLink {
+	margin-bottom: 40px;
+	width: 740px;
+	margin-top: 10px;
+}
+
+
+.explanation{
+	margin-top:10px;
+}
+
+
+/*----------------------------------------------------
+
+	common menu box
+
+----------------------------------------------------*/
+
+
+
+.menuBox {
+	width: 740px;
+	padding-top: 20px;
+}
+
+
+
+.pic {
+	width: 740px;
+	margin-bottom: 20px;
+}
+
+
+
+.picL1 {
+	float: left;
+	width: 290px;
+	margin-bottom: 20px;
+}
+
+
+
+.picL2 {
+	float: left;
+	width: 220px;
+	margin-bottom: 20px;
+}
+
+
+
+.TextL {
+	float: left;
+	width: 360px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+
+
+
+.TextR {
+	float: right;
+	width: 360px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+
+
+
+.TextR2 {
+	float: right;
+	width: 430px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+
+
+
+.TextR3 {
+	float: right;
+	width: 430px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+
+/*----------------------------------------------------
+
+	recommend
+
+----------------------------------------------------*/
+
+#softdl {
+	width: 740px;
+	margin-bottom: 30px;
+}
+
+
+
+#softdl table {
+	font-size: 12px;
+}
+
+
+
+#softdl .soft1 {
+	width: 360px;
+	float: left;
+}
+
+
+
+#softdl .soft2 {
+	width: 360px;
+	float: right;
+}
+
+.test {
+	padding: 0px;
+}
+
+.contents {
+	width: 740px;
+	margin-top: 10px;
+}
